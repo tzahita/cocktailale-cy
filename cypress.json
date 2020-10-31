@@ -1,5 +1,5 @@
 {"integrationFolder": "cypress/specs",
-    "retries": {
+    "retries": {  
       "runMode": 2,
       "openMode": 0
     },
@@ -7,9 +7,13 @@
     "viewportWidth": 1900,
     "viewportHeight": 1500,
     "watchForFileChanges": false,
-    "supportFile": "cypress/config/support/index.js",
-    "pluginsFile": "cypress/config/plugins",
+    "supportFile": "cypress/support/index.js",
     "screenshotsFolder": "cypress/tests-output/screenshots",
     "videosFolder": "cypress/tests-output/videos",
-    "baseUrl": "https://adm-cypress.dynamicyield.com"
+    "baseUrl": "https://adm-cypress.dynamicyield.com",
+    "env":{
+      "PASSWORD": "Aa123123",
+      "EMAIL": "admin@admin.com",
+      "LOGIN_URL": "https://cocktailale.web.app/"
+    }
   }
